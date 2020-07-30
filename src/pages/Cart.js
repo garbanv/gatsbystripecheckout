@@ -32,8 +32,8 @@ const Cart = () => {
     const { error } = await stripe.redirectToCheckout({
       lineItems: final,
       mode: "payment",
-      successUrl: "http://localhost:8000",
-      cancelUrl: "http://localhost:8000",
+      successUrl: "https://gatsbystripe.netlify.app/",
+      cancelUrl: "https://gatsbystripe.netlify.app/",
     })
   }
   useEffect(() => {
