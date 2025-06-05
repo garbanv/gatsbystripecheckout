@@ -7,7 +7,7 @@
   "dependencies": {
     "@stripe/stripe-js": "^1.7.0",
     "bootstrap": "^4.5.0",
-    "gatsby": "^2.23.12",
+    "gatsby": "^5.14.3",
     "gatsby-image": "^2.4.9",
     "gatsby-plugin-manifest": "^2.4.14",
     "gatsby-plugin-offline": "^3.2.13",
